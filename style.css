@@ -1,0 +1,176 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seção Home */
+#home {
+    background: #2196F3;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+/* Seção Motos */
+#motos {
+    padding: 40px 0;
+    text-align: center;
+    background: #fff;
+}
+
+#motos h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.moto-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.moto-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.moto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.moto-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.moto-card p {
+    font-size: 1.2rem;
+    color: #e91e63;
+    margin-bottom: 10px;
+}
+
+.comprar-btn {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.comprar-btn:hover {
+    background: #0b7dda;
+}
+
+/* Seção Contato */
+#contato {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contato form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato form button {
+    background: #2196F3;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contato form button:hover {
+    background: #0b7dda;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
